@@ -1,0 +1,12 @@
+{
+  "name": "weekendproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DanRie19/weekend-game.git",
+  "author": "daniel <rierad30@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "readline-sync": "^1.4.10"
+  }
+}
