@@ -2,11 +2,20 @@
   "name": "weekendproject",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:DanRie19/weekend-game.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanRie19/weekend-game.git"
+  },
   "author": "daniel <rierad30@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^2.0.4",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/DanRie19/weekend-game/issues"
+  },
+  "homepage": "https://github.com/DanRie19/weekend-game#readme",
+  "devDependencies": {},
+  "keywords": []
 }
