@@ -427,7 +427,7 @@ console.log("💀 💀 💀  You have failed your quest, Exit or choose again. �
      console.log("one more trial to make sure you are The Wyncoder...")
      console.log("***********************************")
      console.log("***********************************")
-     let wrongErnieAnswer2=true
+     let finalMerlin=true
 
      while (finalMerlin){
      let chosenfinalMerlin = readlineSync.keyInSelect(merlinAnswer, "Which answer is correct "+userName+" ?")
@@ -450,14 +450,14 @@ console.log("💀 💀 💀  You have failed your quest, Exit or choose again. �
           console.log("       ***********************************")
          console.log( "You got this " +userName+ " Go on")
             console.log("     ***********************************")
-            wrongErnieAnswer2=false
+            
      }
      else if ( chosenfinalMerlin == [3]){
         console.log("")
            console.log("       ***********************************")
           console.log( "Here you go " +userName+" ....")
              console.log("     ***********************************")
-             wrongErnieAnswer2=false
+             finalMerlin=false
       } else {console.log("")
           console.log("              ***********************************")
      console.log("💀 💀 💀  You are not the Wyncoder, Exit or choose again. 💀 💀 💀")
